@@ -34,4 +34,15 @@ Figure: Detailed architecture of the ClinicalBERT model used in this study. Inpu
 Figure: Attention-based interpretability of ClinicalBERT predictions: token-wise attention weights to [$CLS$] in a representative clinical note.
 
 
+### Comparative performance of the proposed ClinicalBERT pipeline against biomedical and general-purpose transformer baselines
+
+| Model            | MaxLen | Pooling | Eval Loss | Acc    | Prec   | Rec    | F1     | Runtime (s) | Samples/s | ΔF1 (pp) |
+|------------------|--------|---------|-----------|--------|--------|--------|--------|-------------|-----------|----------|
+| Bio_ClinicalBERT | 256    | CLS     | 0.0252    | 0.9957 | 0.9929 | 0.9957 | 0.9941 | 39548.31    | 0.152     | -0.59    |
+| BioBERT          | 256    | CLS     | 0.0241    | 0.9960 | 0.9937 | 0.9960 | 0.9946 | 40423.02    | 0.149     | -0.54    |
+| PubMedBERT       | 256    | CLS     | 0.0184    | 0.9978 | 0.9963 | 0.9978 | 0.9970 | 39120.06    | 0.154     | -0.30    |
+| DeBERTa-v3       | 256    | CLS     | 0.0234    | 0.9957 | 0.9928 | 0.9957 | 0.9940 | 19669.08    | 0.305     | -0.60    |
+| DistilBERT       | 256    | CLS     | 0.0294    | 0.9950 | 0.9920 | 0.9950 | 0.9940 | 20000       | 0.300     | -0.60    |
+| **Proposed**     | 256    | CLS     | **0.015** | **1.0000** | **1.0000** | **1.0000** | **1.0000** | 39000       | 0.153     | **0.00** |
+
 
