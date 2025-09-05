@@ -34,6 +34,28 @@ Figure: Detailed architecture of the ClinicalBERT model used in this study. Inpu
 Figure: Attention-based interpretability of ClinicalBERT predictions: token-wise attention weights to [$CLS$] in a representative clinical note.
 
 
+### Classification report showing per-class precision, recall, and F1-score for the proposed ClinicalBERT-based entity extraction model
+
+| Metric            | Precision | Recall | F1   |
+|-------------------|-----------|--------|------|
+| Macro-average     | 0.91      | 0.92   | 0.91 |
+| Weighted-average  | 1.00      | 1.00   | 1.00 |
+| **Accuracy**      | \-        | \-     | **0.99** |
+
+#### Representative Classes
+
+| Class Combination                                              | Precision | Recall | F1   |
+|----------------------------------------------------------------|-----------|--------|------|
+| HER2⁺ \| ER⁺ \| PR⁺ \| Grade II                                | 1.00      | 1.00   | 1.00 |
+| HER2⁺ \| ER⁻ \| PR⁺ \| Grade II                                | 1.00      | 1.00   | 1.00 |
+| HER2⁺ \| ER⁺ \| PR⁻ \| Grade III                               | 1.00      | 1.00   | 1.00 |
+| HER2 (borderline) \| ER (borderline) \| PR (borderline) \| Grade II | 1.00      | 1.00   | 1.00 |
+| HER2⁺ \| ER⁻ \| PR⁻ \| Grade II                                | 1.00      | 1.00   | 1.00 |
+| HER2⁺ \| ER⁻ \| PR⁺ \| Grade II                                | 0.78      | 1.00   | 0.88 |
+| HER2 (borderline) \| ER⁺ \| PR (borderline) \| Grade I         | 0.50      | 1.00   | 0.67 |
+
+
+
 ### Comparative performance of the proposed ClinicalBERT pipeline against biomedical and general-purpose transformer baselines
 
 | Model            | MaxLen | Pooling | Eval Loss | Acc    | Prec   | Rec    | F1     | Runtime (s) | Samples/s | ΔF1 (pp) |
