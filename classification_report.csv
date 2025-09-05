@@ -1,0 +1,68 @@
+,precision,recall,f1-score,support
+borderline/unknown | borderline/unknown | borderline/unknown | moderately differentiated; grade ii,1.0,1.0,1.0,28.0
+borderline/unknown | borderline/unknown | borderline/unknown | poorly differentiated; grade iii,1.0,1.0,1.0,20.0
+borderline/unknown | borderline/unknown | borderline/unknown | unknown,1.0,1.0,1.0,121.0
+borderline/unknown | borderline/unknown | borderline/unknown | well differentiated; grade i,1.0,1.0,1.0,13.0
+borderline/unknown | borderline/unknown | negative | unknown,0.0,0.0,0.0,1.0
+borderline/unknown | negative | negative | moderately differentiated; grade ii,1.0,1.0,1.0,9.0
+borderline/unknown | negative | negative | poorly differentiated; grade iii,1.0,1.0,1.0,18.0
+borderline/unknown | negative | negative | unknown,1.0,1.0,1.0,7.0
+borderline/unknown | positive | borderline/unknown | moderately differentiated; grade ii,1.0,1.0,1.0,1.0
+borderline/unknown | positive | borderline/unknown | unknown,0.5,1.0,0.6666666666666666,2.0
+borderline/unknown | positive | borderline/unknown | well differentiated; grade i,1.0,1.0,1.0,2.0
+borderline/unknown | positive | negative | moderately differentiated; grade ii,1.0,1.0,1.0,10.0
+borderline/unknown | positive | negative | poorly differentiated; grade iii,1.0,1.0,1.0,10.0
+borderline/unknown | positive | negative | unknown,1.0,1.0,1.0,8.0
+borderline/unknown | positive | negative | well differentiated; grade i,1.0,1.0,1.0,3.0
+borderline/unknown | positive | positive | moderately differentiated; grade ii,1.0,1.0,1.0,62.0
+borderline/unknown | positive | positive | poorly differentiated; grade iii,1.0,1.0,1.0,30.0
+borderline/unknown | positive | positive | unknown,1.0,1.0,1.0,26.0
+borderline/unknown | positive | positive | well differentiated; grade i,1.0,1.0,1.0,30.0
+negative | borderline/unknown | borderline/unknown | poorly differentiated; grade iii,0.0,0.0,0.0,0.0
+negative | borderline/unknown | borderline/unknown | unknown,0.6666666666666666,1.0,0.8,2.0
+negative | borderline/unknown | borderline/unknown | well differentiated; grade i,1.0,1.0,1.0,1.0
+negative | negative | borderline/unknown | poorly differentiated; grade iii,0.0,0.0,0.0,1.0
+negative | negative | negative | moderately differentiated; grade ii,1.0,1.0,1.0,104.0
+negative | negative | negative | poorly differentiated; grade iii,1.0,1.0,1.0,398.0
+negative | negative | negative | undifferentiated; anaplastic; grade iv,1.0,1.0,1.0,1.0
+negative | negative | negative | unknown,1.0,1.0,1.0,36.0
+negative | negative | negative | well differentiated; grade i,1.0,1.0,1.0,12.0
+negative | negative | positive | moderately differentiated; grade ii,1.0,1.0,1.0,4.0
+negative | negative | positive | poorly differentiated; grade iii,1.0,1.0,1.0,25.0
+negative | negative | positive | unknown,1.0,1.0,1.0,2.0
+negative | negative | positive | well differentiated; grade i,1.0,1.0,1.0,1.0
+negative | positive | borderline/unknown | moderately differentiated; grade ii,1.0,1.0,1.0,3.0
+negative | positive | negative | moderately differentiated; grade ii,1.0,1.0,1.0,183.0
+negative | positive | negative | poorly differentiated; grade iii,1.0,1.0,1.0,178.0
+negative | positive | negative | unknown,1.0,1.0,1.0,20.0
+negative | positive | negative | well differentiated; grade i,1.0,1.0,1.0,109.0
+negative | positive | positive | moderately differentiated; grade ii,1.0,1.0,1.0,1801.0
+negative | positive | positive | poorly differentiated; grade iii,1.0,1.0,1.0,518.0
+negative | positive | positive | unknown,1.0,1.0,1.0,173.0
+negative | positive | positive | well differentiated; grade i,1.0,1.0,1.0,1139.0
+positive | borderline/unknown | borderline/unknown | unknown,0.0,0.0,0.0,2.0
+positive | negative | negative | moderately differentiated; grade ii,1.0,1.0,1.0,49.0
+positive | negative | negative | poorly differentiated; grade iii,1.0,1.0,1.0,171.0
+positive | negative | negative | unknown,1.0,1.0,1.0,25.0
+positive | negative | negative | well differentiated; grade i,1.0,1.0,1.0,1.0
+positive | negative | positive | moderately differentiated; grade ii,0.7777777777777778,1.0,0.875,7.0
+positive | negative | positive | poorly differentiated; grade iii,1.0,1.0,1.0,6.0
+positive | negative | positive | unknown,1.0,1.0,1.0,3.0
+positive | negative | positive | well differentiated; grade i,0.0,0.0,0.0,2.0
+positive | positive | borderline/unknown | poorly differentiated; grade iii,1.0,1.0,1.0,1.0
+positive | positive | borderline/unknown | unknown,1.0,1.0,1.0,1.0
+positive | positive | negative | moderately differentiated; grade ii,1.0,1.0,1.0,78.0
+positive | positive | negative | poorly differentiated; grade iii,1.0,1.0,1.0,80.0
+positive | positive | negative | unknown,1.0,1.0,1.0,11.0
+positive | positive | negative | well differentiated; grade i,1.0,1.0,1.0,4.0
+positive | positive | positive | moderately differentiated; grade ii,1.0,1.0,1.0,185.0
+positive | positive | positive | poorly differentiated; grade iii,1.0,1.0,1.0,191.0
+positive | positive | positive | unknown,1.0,1.0,1.0,30.0
+positive | positive | positive | well differentiated; grade i,1.0,1.0,1.0,32.0
+recode not available | recode not available | recode not available | poorly differentiated; grade iii,1.0,1.0,1.0,2.0
+recode not available | recode not available | recode not available | undifferentiated; anaplastic; grade iv,1.0,1.0,1.0,2.0
+recode not available | recode not available | recode not available | unknown,1.0,1.0,1.0,7.0
+recode not available | recode not available | recode not available | well differentiated; grade i,1.0,1.0,1.0,4.0
+accuracy,0.999000999000999,0.999000999000999,0.999000999000999,0.999000999000999
+macro avg,0.9053819444444444,0.921875,0.9115885416666667,6006.0
+weighted avg,0.9984644984644984,0.999000999000999,0.9986777111777112,6006.0
