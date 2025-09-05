@@ -4,25 +4,37 @@
 
 This project presents an ontology-guided NLP pipeline for extracting tumor biomarkers (ER, PR, and HER2) and laboratory test information from unstructured breast cancer pathology reports. The framework leverages ClinicalBERT, fine-tuned for token-level classification, and integrates post-processing with LOINC and SNOMED CT for standardized, interoperable outputs.
 
-Key Features
--ClinicalBERT-based Entity Extraction
- Fine-tuned transformer model for recognizing biomarkers, test values, units, and temporal expressions from free-text pathology narratives.
--Ontology-Guided Normalization
- Extracted entities are cleaned and mapped to controlled vocabularies (LOINC & SNOMED CT), ensuring compatibility with electronic health records (EHRs) and research databases.
--Attention-based Explainability
- Token-level rationales and heatmaps offer interpretable insights into model predictions, thereby enhancing clinical trustworthiness.
--Synthetic + Structured Data Training
- Combines SEER registry data (2010–2022, ~385k records) with large-scale synthetic pathology-style reports for robust training and evaluation.
+## 🔑 Key Features
 
-Results
--Achieved weighted F1 = 1.000 and accuracy of 0.99 on held-out test sets.
--Strong generalization across common ER/PR/HER2 combinations, with acceptable performance even for rare subtypes.
--Demonstrated clear interpretability, aligning model focus with clinically relevant tokens.
+- **ClinicalBERT-based Entity Extraction**  
+  Fine-tuned transformer model capable of recognizing **biomarkers, test values, units, and temporal expressions** directly from free-text pathology narratives.
 
-Contributions
--Provides a high-performance, interoperable, and explainable information extraction system for oncology.
--Bridges gaps between free-text pathology reports and standardized data for decision support, clinical trials, and large-scale cancer research.
--Moves toward multi-institutional integration and scalable clinical deployment.
+- **Ontology-Guided Normalization**  
+  Extracted entities are **cleaned and mapped** to controlled vocabularies (**LOINC & SNOMED CT**), ensuring full compatibility with **electronic health records (EHRs)** and research databases.
+
+- **Attention-based Explainability**  
+  Provides **token-level rationales and heatmaps** for interpretable insights into predictions — enhancing **clinical trust and transparency**.
+
+- **Synthetic + Structured Data Training**  
+  Integrates **SEER registry data (2010–2022, ~385k records)** with **large-scale synthetic pathology-style reports**, supporting **robust and generalizable training**.
+
+---
+
+## 📊 Results
+
+- ✅ Achieved **Weighted F1 = 1.000** and **Accuracy = 0.99** on held-out test sets.  
+- ✅ Demonstrated **strong generalization** across common ER/PR/HER2 combinations.  
+- ✅ Maintained **acceptable performance** even for rare biomarker subtypes.  
+- ✅ Showed **clear interpretability**, with model attention aligning to clinically relevant tokens.  
+
+---
+
+## 🏆 Contributions
+
+- ⚡ Developed a **high-performance, interoperable, and explainable** information extraction pipeline tailored for oncology.  
+- 🌐 Bridged the gap between **unstructured pathology reports** and **standardized data models**, enabling applications in **clinical decision support, clinical trials, and large-scale cancer research**.  
+- 🏥 Advanced toward **multi-institutional integration** and **scalable clinical deployment**, ensuring broader usability in healthcare workflows.  
+
 
 ![data_preprocessing](https://github.com/user-attachments/assets/b0ea7f13-80ec-455f-bee5-77df9f96e5ce)
 Figure: Structured data from the SEER database and unstructured synthetic reports are preprocessed and combined for multi-label classification tasks.
